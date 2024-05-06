@@ -1,7 +1,4 @@
-const profile = {
-  name: "shardha khapar",
-  posts: 195,
-  isFollow: true,
-};
-console.log(typeof profile.isFollow);
-f;
+let a = 5;
+let b = 2;
+
+console.log("a++ = ", ++a);
