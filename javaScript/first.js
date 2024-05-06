@@ -4,3 +4,4 @@ const profile = {
   isFollow: true,
 };
 console.log(typeof profile.isFollow);
+f;
