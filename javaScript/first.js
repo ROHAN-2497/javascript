@@ -78,3 +78,5 @@ if (score >= 90 && score <= 100) {
   grade = "F";
 }
 console.log(grade);
+
+// For loop
