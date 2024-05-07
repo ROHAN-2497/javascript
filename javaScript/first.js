@@ -63,3 +63,18 @@
 // } else {
 //   console.log(num, "is NOT a multiple of 5");
 // }
+
+let score = prompt("write your Xm number");
+let grade;
+if (score >= 90 && score <= 100) {
+  grade = "A+";
+} else if (score >= 70 && score <= 89) {
+  grade = "A";
+} else if (score >= 60 && score <= 69) {
+  grade = "A-";
+} else if (score >= 50 && score <= 59) {
+  grade = "B";
+} else if (score >= 0 && score <= 49) {
+  grade = "F";
+}
+console.log(grade);
